@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+  .login {
+    height: 95vh !important;
+  }
+
+  .loginContainer {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .loginHeader {
+    height: 15% !important;
+  }
+  .loginBody {
+    
+    height: 20% !important;
+    margin-top: 5rem;
+}
+
+  #loginInput {
+    width: 70% !important;
+  }
+
+  .loginBtnLink {
+    width: 80% !important;
+    height: 100%;
+  }
+
+  .loginBtn {
+    height: 70% !important;
+    font-size: 1.2em !important;
+  }
+
+  .chat {
+    height: 91vh !important;
+  }
+
+  .chatContainer {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .chatHeader {
+    height: 15% !important;
+  }
+
+  .chatBody {
+    height: 75% !important;
+  }
+
+  .chatFooter {
+    height: 10% !important;
+
+  }
+
+  #chatInput {
+    height: 50% !important;
+  }
+  .messageBox{
+   
+    /* width: initial !important; */
+    padding: 3vw;
+    margin:3vw;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+
+}

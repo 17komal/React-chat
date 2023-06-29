@@ -1,0 +1,82 @@
+.login {
+    background-color: rgb(42, 37, 37);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer {
+    width: 30%;
+    height: 60%;
+    /* background-color: #fff; */
+}
+
+.loginHeader {
+    height: 25%;
+    background-color: #c62827;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #fff;
+    
+}
+
+#loginTitle {
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+    align-items: center;  
+    display: flex; 
+    
+}
+
+#loginTitle p {
+    color: #fff;
+    padding-left: 1rem;
+}
+#loginLogo {
+    height: 100%;
+}
+
+.loginBody {
+    /* width: 25%; */
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#loginInput {
+    padding: 1rem;
+    width: 93%;
+    outline: none;
+}
+
+.loginFooter {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginBtnLink{
+    width: 100%;
+    height: 100%;
+}
+
+.loginBtn {
+    width: 100%;
+    height: 100%;
+    background-color: #c62827;
+    color: #fff;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.loginBtn:hover {
+    background-color: rgb(152, 12, 40);
+    color: #fff;
+}

@@ -1,0 +1,19 @@
+.messageBox{
+    background-color: rgb(107, 109, 110);
+    /* width: 50%; */
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    clear: both;
+}
+
+.left{
+    background-color: #c2ef95;
+    float: left;
+}
+
+.right{
+    background-color:#e89494;
+    float: right;
+}
