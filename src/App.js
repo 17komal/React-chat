@@ -10,7 +10,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path='/' Component={Login}></Route>
-        <Route path='/chat' Component={Chat}></Route>
+        <Route exact path='/chat' Component={Chat}></Route>
       </Routes>
     </Router>
 
