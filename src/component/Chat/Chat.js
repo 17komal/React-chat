@@ -5,7 +5,7 @@ import Logo from '../../img/logo3.png';
 import socketIO from 'socket.io-client';
 import Message from '../Message/Message';
 import ReactScrollToBottom from 'react-scroll-to-bottom';
-const ENDPOINT = 'http://localhost:4500/';
+const ENDPOINT = 'https://chat-server-167e.onrender.com/';
 let socket;
 
 const Chat = () => {

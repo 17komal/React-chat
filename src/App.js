@@ -9,8 +9,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path='/' Component={Login}></Route>
-        <Route exact path='/chat' Component={Chat}></Route>
+        <Route  path="/React-chat" Component={Login}></Route>
+        <Route  path='/chat' Component={Chat}></Route>
       </Routes>
     </Router>
 
